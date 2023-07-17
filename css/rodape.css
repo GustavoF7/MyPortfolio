@@ -1,0 +1,118 @@
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+
+  .rodape__container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background-color: var(--principal);
+  }
+  
+  .rodape__contato {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    gap: 32px;
+    align-items: center;
+  }
+
+  .rodape__contato-itens {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    align-self: stretch;
+  }
+  
+  .rodape__contato-topo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+  }
+  
+  .rodape__rodape {
+    display: flex;
+    padding: 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  
+  .rodape__contato-campos {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+  }
+  
+  .rodape__contato-campos button {
+    align-self: stretch;
+  }
+  
+  .form__elementos {
+    align-self: stretch;
+    display: flex;
+    flex-direction:  column;
+    padding: 12px;
+    border-radius: 4px;
+    background: #FFF;
+    border-bottom: solid 3px var(--contraste-2);
+  }
+  
+  .form__elementos input,
+  .form__elementos textarea {
+    width: 100%;
+    flex: 1;
+    border: none;
+    outline: none;
+    color: var(--preto-100);
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 20px;
+    resize: none;
+  }
+  
+  .form__elementos input::placeholder,
+  .form__elementos textarea::placeholder,
+  .form__elementos label {
+    color: #A2A2A2;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+  
+  .form__elementos.mensagem {
+    height: 200px;
+  }
+
+  .rodape__img {
+    display: none;
+  }
+
+  @media screen and (min-width: 1024px) {
+    .rodape__container {
+      flex-direction: row;
+      align-items: flex-end;
+    }
+    .rodape__img {
+      display: block;
+      width: 40%;
+    }
+    
+  }
+  

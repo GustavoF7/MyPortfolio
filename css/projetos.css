@@ -10,7 +10,7 @@
 .projetos__itens {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 64px;
     align-self: stretch;
 }
@@ -129,6 +129,7 @@
 @media screen and (min-width: 712px) {
     .projetos__card {
         width: 100%;
+        max-width: 648px;
         height: 460px;
     }
 
@@ -157,7 +158,9 @@
     .projetos__container-img {
         width: 70%;
     }
-
+    .projetos__card {
+        max-width: 100%;
+    }
     .projetos__card::before,
     .projetos__card::after {
         width: 2000px;

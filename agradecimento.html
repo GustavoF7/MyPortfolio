@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gustavo Fernandes</title>
+    <link rel="icon" type="image/svg+xml" href="img/Logo.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Raleway:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/cabecalho.css" />
+    <link rel="stylesheet" href="css/agradecimento.css" />
+    <link rel="stylesheet" href="css/rodape.css" />
+  </head>
+
+  <body>
+    <header class="cabecalho container">
+      <div class="cabecalho__logo">
+        <img src="img/Logo.svg" alt="logo" class="cabecalho__logo-img" />
+        <h1 class="cabecalho__logo-text gradient-text">Gustavo Fernandes</h1>
+      </div>
+      <h3 class="cabecalho__logo-contato">gustavofernandes.gfgn@hotmail.com</h3>
+      <nav class="cabecalho__navegacao">
+        <div class="menu-hamburguer">
+          <input type="checkbox" id="menu-toggle" />
+          <label for="menu-toggle" id="icone-menu"></label>
+          <ul class="menu">
+            <li class="cabecalho__link"><a href="index.html">Home</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="agradecimento container">
+        <img
+          src="img/email-recebido.svg"
+          alt="Foto"
+          class="agradecimento__foto"
+        />
+        <div class="agradecimento__text">
+          <h1 class="agradecimento__headline gradient-text headline">
+            Recebemos sua mensagem.
+          </h1>
+          <h3 class="agradecimento__subheadline subheadline">
+            Agora é so relaxar que, em breve, entraremos em contato com você.
+            Não sabe relaxar? Vishhhh, então que tal gastar essa energia para
+            aprender coisas novas?
+          </h3>
+
+          <nav class="agradecimento__redes">
+            <ul class="agradecimento__menu">
+              <li class="agradecimento__link">
+                <a href="https://www.tiktok.com/@owebgustavo">
+                  <div class="agradecimento__img">
+                    <img
+                      src="img/icon-tiktok-1.png"
+                      alt="tiktok"
+                      class="agradecimento__link-icon"
+                      id="icon-ttk"
+                    />
+                  </div>
+                  <span class="agradecimento__link-text">@webGustavo</span>
+                </a>
+              </li>
+              <li class="agradecimento__link">
+                <a href="https://www.youtube.com/@webGustavo">
+                  <div class="agradecimento__img">
+                    <img
+                      src="img/icon-shorts-1.png"
+                      alt="shorts"
+                      class="agradecimento__link-icon"
+                      id="icon-shorts"
+                    />
+                  </div>
+                  <span class="agradecimento__link-text">@webGustavo</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <footer class="rodape">
+        <div class="rodape__rodape" style="background-color:var(--principal)">
+          Desenvolvido por Gustavo Fernandes<br />2023
+        </div>
+      </footer>
+    </main>
+
+    <script src="js/agradecimento.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

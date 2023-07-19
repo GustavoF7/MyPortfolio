@@ -59,6 +59,13 @@ main {
     -webkit-text-fill-color: transparent;
     animation: gradientAnimation 10s linear infinite;
 }
+.botao__demo, .botao__repositorio {
+    transition: .5s ease;
+}
+.botao:hover {
+    box-shadow: 0 0 10px var(--contraste);
+    transform: rotate(-2deg);
+}
 
 @keyframes gradientAnimation {
     0% {
